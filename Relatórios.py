@@ -197,3 +197,4 @@ with st.container():
                 df_filtered_options = df1filtered[df1filtered["fornecedor"].isin(["Atlas Papelaria", "Atakadinho Bahia", "Brilhante", "Casa Norte", "Distribuidora Teresina", "Ecopaper", "E Pacheco", "KC Carvalho", "Macropack", "Nacional", "PL", "Supermercado São Jorge (JB)"])]
                 counts = df_filtered_options["fornecedor"].value_counts()
                 st.bar_chart(counts)
+                
